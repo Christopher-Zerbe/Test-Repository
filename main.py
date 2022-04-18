@@ -11,8 +11,8 @@ def main():
     print("TestTestTest")
     print("ich code im Main")
 
-    print("ich auch")
-    print("ich auch")
+    import time
+    print(time.strftime("%H:%M:%S"))
 
     
 
