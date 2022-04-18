@@ -7,12 +7,9 @@ import time
 
 
 def main():
-<<<<<<< HEAD
-    print('Hallo Rubbl Branch')
-=======
     print("Hello World! It is currently: " + time.strftime("%H:%M:%S"))
     print("We recommend the following lotto numbers: " + str(bubble_sort(generate_lotto_numbers())))
-
+    print('rubbls privat branch')
 
 def bubble_sort(arr):
     for i in range(len(arr)):
@@ -33,4 +30,3 @@ test_array = [1, 8, 3, 8, 32, 98, 3, 9, 212, 68, 3, 1]
 
 if __name__ == "__main__":
     main()
->>>>>>> bb7b25ac7757ce07f8b6587a648ab5c589351470
