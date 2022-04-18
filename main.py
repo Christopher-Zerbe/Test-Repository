@@ -3,6 +3,7 @@
 
 def main():
     print("Hello World!")
+    print("Hello World!!")
 
 
 def bubble_sort(arr):
