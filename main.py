@@ -20,6 +20,7 @@ def generate_lotto_numbers():
         lotto_numbers.append(random.randint(1, 45))
     return lotto_numbers
 
+# Happy Comment
 
 test_array = [1, 8, 3, 8, 32, 98, 3, 9, 212, 68, 3, 1]
 
