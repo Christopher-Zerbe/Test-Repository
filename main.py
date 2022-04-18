@@ -29,6 +29,7 @@ def generate_lotto_numbers():
 
 
 test_array = [1, 8, 3, 8, 32, 98, 3, 9, 212, 68, 3, 1]
+print('ich gewinne im Lotto')
 
 if __name__ == "__main__":
     main()
