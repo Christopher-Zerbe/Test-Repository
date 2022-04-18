@@ -10,6 +10,7 @@ def main():
     print("Hello World!!")
     print("TestTestTest")
     print("ich code im Main")
+    print("ich auch")
     
 
 def bubble_sort(arr):
