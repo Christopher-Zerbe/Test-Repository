@@ -9,7 +9,7 @@ import time
 def main():
     print("Hello World! It is currently: " + time.strftime("%H:%M:%S"))
     print("We recommend the following lotto numbers: " + str(bubble_sort(generate_lotto_numbers())))
-    print('rubbls privat branch')
+    print('rubbls privat branch is no longer private')
     print('rubbls privat branch')
     print('rubbls privat branch')
 
