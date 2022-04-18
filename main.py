@@ -2,6 +2,7 @@
 # It is used to test the functionality of the GitHub.
 
 # import the necessary packages
+from msilib.schema import Class
 import random
 import time
 
@@ -9,9 +10,7 @@ import time
 def main():
     print("Hello World! It is currently: " + time.strftime("%H:%M:%S"))
     print("We recommend the following lotto numbers: " + str(bubble_sort(generate_lotto_numbers())))
-    print('rubbls privat branch')
-    print('rubbls privat branch')
-    print('rubbls privat branch')
+
 
 def bubble_sort(arr):
     for i in range(len(arr)):
@@ -29,6 +28,7 @@ def generate_lotto_numbers():
 
 
 test_array = [1, 8, 3, 8, 32, 98, 3, 9, 212, 68, 3, 1]
+print('ich gewinne im Lotto')
 
 if __name__ == "__main__":
     main()
